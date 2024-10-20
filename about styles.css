@@ -1,0 +1,278 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    text-size-adjust: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8b400; /* Header Color */
+    padding: 20px;
+}
+
+.logo img {
+    width: 80px; /* Logo Size */
+    height: auto; /* Maintain Aspect Ratio */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 15px 30px; /* Button Padding */
+    font-size: 25px; /* Font Size */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Text Color */
+    font-weight: bold;
+    padding: 10px 15px; /* Button-like Appearance */
+    border-radius: 5px; /* Rounded Corners */
+    transition: background-color 0.3s ease; /* Hover Effect */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light Hover Effect */
+}
+
+.cart a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* whats app */
+.whatsapp_float{
+    position:fixed;
+    bottom: 40px;
+    right:20px;
+    left:0px;
+
+}
+/* About Us Page Styles */
+.about-us {
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Section Background */
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth Background Change */
+}
+
+.about-us h1 {
+    font-size: 40px; /* Increased Font Size */
+    margin-bottom: 20px;
+    color: #333; /* Dark Text for Contrast */
+    font-weight: 600; /* Semi-Bold Font */
+    text-transform: uppercase; /* Uppercase */
+}
+
+.about-us p {
+    font-size: 20px; /* Increased Font Size */
+    line-height: 1.8; /* Improved Line Height */
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: #555; /* Darker Gray for Better Readability */
+}
+
+/* Our Vision Section */
+.vision {
+    padding: 50px 20px;
+    background-color: #fff; /* Light Background */
+    text-align: center;
+    border-top: 5px solid #f8b400; /* Decorative Top Border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
+    transition: transform 0.3s; /* Scale Effect on Hover */
+}
+
+.vision:hover {
+    transform: translateY(-5px); /* Lift Effect */
+}
+
+.vision h2 {
+    font-size: 32px; /* Larger Heading */
+    margin-bottom: 20px;
+    color: #f8b400; /* Match Header Color */
+    font-weight: bold;
+}
+
+.vision p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* Mission and Values Section */
+.mission-values {
+    padding: 50px 20px;
+    background-color: #fff; /* White Background */
+    text-align: center;
+    border-radius: 10px; /* Rounded Corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for Depth */
+}
+
+.mission-values h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* Dark Text */
+    font-weight: bold;
+}
+
+.mission-values p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mission-values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mission-values ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.mission-values ul li strong {
+    color: #f8b400; /* Highlight Color */
+}
+
+/* Team Section */
+.team {
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Section Background */
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #333; /* Dark Text */
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; /* Rounded Corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Enhanced Shadow */
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s; /* Scale Effect on Hover */
+}
+
+.team-member:hover {
+    transform: translateY(-5px); /* Lift Effect */
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded Corners for Images */
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+    font-size: 22px; /* Increased Font Size */
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #555; /* Gray Text */
+}
+
+/* Featured Recipes Section */
+.featured-recipes {
+    padding: 50px 20px;
+    background-color: #fff; /* Light Background */
+    text-align: center;
+    border-top: 5px solid #f8b400; /* Decorative Top Border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
+}
+
+.featured-recipes h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333; /* Dark Text */
+}
+
+.recipe-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.recipe-item {
+    background-color: white;
+    border-radius: 10px; /* Rounded Corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Shadow for Depth */
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s; /* Scale Effect on Hover */
+}
+
+.recipe-item:hover {
+    transform: translateY(-5px); /* Lift Effect */
+}
+
+.recipe-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded Corners */
+    margin-bottom: 15px;
+}
+
+.recipe-item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.recipe-item p {
+    font-size: 16px;
+    color: #555; /* Gray Text */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark Background */
+    color: white; /* White Text */
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: white; /* White Links */
+    text-decoration: none; /* No Underline */
+}
+ 

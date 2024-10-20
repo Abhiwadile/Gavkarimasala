@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    text-size-adjust: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8b400; /* Header Color */
+    padding: 20px;
+}
+
+.logo img {
+    width: 80px; /* Logo Size */
+    height: auto; /* Maintain Aspect Ratio */
+}
+/* whats app */
+.whatsapp_float{
+    position:fixed;
+    bottom: 40px;
+    right:20px;
+    left:0px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px 15px; /* Increase padding for buttons */
+    font-size: 25px; /* Font Size */
+}
+
+nav ul li {
+    margin-right: 30px;
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Text Color */
+    font-weight: bold;
+    border-radius: 20px; /* Rounded Corners */
+    padding: 10px 15px; /* Add Padding for Buttons */
+    transition: background-color 0.3s ease; /* Smooth Hover Effect */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light Hover Effect */
+}
+
+/* Cart Link */
+.cart a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* General Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    text-size-adjust: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8b400; /* Header Color */
+    padding: 20px;
+}
+
+.logo img {
+    width: 80px; /* Logo Size */
+    height: auto; /* Maintain Aspect Ratio */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 15px 30px; /* Button Padding */
+    font-size: 25px; /* Font Size */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Text Color */
+    font-weight: bold;
+    padding: 10px 15px; /* Button-like Appearance */
+    border-radius: 5px; /* Rounded Corners */
+    transition: background-color 0.3s ease; /* Hover Effect */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light Hover Effect */
+}
+/* Centering the button using Absolute Positioning */
+.shop-now {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the button */
+    padding: 15px 30px; /* Increased Padding */
+    background-color: #e69e00; /* Button Background */
+    border: none;
+    color: rgb(0, 0, 0); /* Text Color */
+    cursor: pointer;
+    font-size: 30px; /* Font Size */
+    border-radius: 15px; /* Rounded Corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth Transition */
+}
+
+.shop-now:hover {
+    background-color: #d69e00; /* Darker Hover Color */
+    transform: scale(1.05); /* Slight Grow Effect on Hover */
+}
+
+.cart a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* Production Section */
+.production {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.production h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.production p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.upcoming-products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.upcoming-product-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Adjust as needed */
+}
+
+.upcoming-product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    image-resolution: 511.99*511.99px;
+}
+
+.upcoming-product-card h3 {
+    margin: 10px 0;
+}
+
+.upcoming-product-card p {
+    color: #555;
+}

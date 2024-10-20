@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Gavkari Masala</title>
+    <link rel="stylesheet" href="add to cart styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.webp" alt="Gavkari Masala Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="addtocart.html">Cart (<span id="cart-count">0</span>)</a>
+        </div>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart-section">
+        <h1>Your Cart</h1>
+        <div id="cart-items" class="cart-items">
+            <!-- Cart items will be dynamically populated here -->
+        </div>
+        <div class="total">
+            <h2>Total: $<span id="total-price">0</span></h2>
+        </div>
+        <button id="order-button">Proceed to Order</button>
+    </section>
+<!-- whats app -->
+<div class="whatsapp_float">
+    <a href="https://wa.me/918208007095" target="_blank"><img src='whatsappicon.jfif' width="100px" class="whatsapp_float_btn"/></a>
+ </div>
+    <!-- Order Section -->
+    <section class="order-section">
+        <h1>Place Your Order</h1>
+        <form id="order-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="whatsapp">WhatsApp Number:</label>
+            <input type="text" id="whatsapp" required>
+            <label for="order-details">Order Details:</label>
+            <textarea id="order-details" rows="4" required></textarea>
+            <button type="submit">Send Order via WhatsApp</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gavkari Masala. All rights reserved.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>

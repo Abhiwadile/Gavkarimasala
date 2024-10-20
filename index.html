@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gavkari Masala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.webp" alt="Gavkari Masala Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="addtocart.html" id="cart-link">🛒 Cart (<span id="cart-count">0</span>)</a>
+        </div>
+    </header>
+
+    <!-- Main Banner Section -->
+    <section class="main-banner">
+        <div class="banner">
+            <div class="slider">
+                <img src="mdh-spices1.jpg" alt="Banner 1" class="banner-img active">
+                <img src="mdh-spices-2.jpg" alt="Banner 2" class="banner-img">
+            </div>
+    
+            <!-- Controls -->
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+        <section class="h1">
+            <h1>Welcome to Gavkari Masala</h1>
+        </section>
+        <section class="p">
+            <p>Your one-stop shop for authentic All-in-One Masala and more!</p>
+        </section>
+        <button class="shop-now" id="shop-now">Shop Now</button>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h1>Our Best Selling Products</h1>
+        <h3>Currently, we have launched these 2 products and soon to launch many more items!</h3>
+        <div class="product-grid">
+            <div class="product-card" data-name="All-in-One Masala" data-price="10">
+                <img src="all in one.png" alt="All-in-One Masala">
+                <h3>All-in-One Masala</h3>
+                <p>Price: $10</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-name="Special Mutton Masala" data-price="8">
+                <img src="mutton.png" alt="Special Mutton Masala">
+                <h3>Special Mutton Masala</h3>
+                <p>Price: $8</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Add more products similarly -->
+        </div>
+    </section>
+    <!-- whats app -->
+     <div class="whatsapp_float">
+        <a href="https://wa.me/918208007095" target="_blank"><img src='whatsappicon.jfif' width="100px" class="whatsapp_float_btn"/></a>
+     </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Gavkari Masala. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

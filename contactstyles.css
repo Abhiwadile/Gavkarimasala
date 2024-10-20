@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    text-size-adjust: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8b400; /* Header Color */
+    padding: 20px;
+}
+
+.logo img {
+    width: 80px; /* Logo Size */
+    height: auto; /* Maintain Aspect Ratio */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px 15px; /* Increase padding for buttons */
+    font-size: 25px; /* Font Size */
+}
+
+nav ul li {
+    margin-right: 30px;
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* Text Color */
+    font-weight: bold;
+    border-radius: 20px; /* Rounded Corners */
+    padding: 10px 15px; /* Add Padding for Buttons */
+    transition: background-color 0.3s ease; /* Smooth Hover Effect */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light Hover Effect */
+}
+
+/* Cart Link */
+.cart a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Contact Us Page Styles */
+.contact-us {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact-us h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-us p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #f8b400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-form button:hover {
+    background-color: #e69e00;
+}
+
+/* WhatsApp Section */
+.whatsapp-contact {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.whatsapp-link {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.whatsapp-link img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.whatsapp-link:hover {
+    background-color: #1ebe5a;
+}
+/* whats app */
+.whatsapp_float{
+    position:fixed;
+    bottom: 40px;
+    right:20px;
+    left:0px;
+
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}

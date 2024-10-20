@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    text-size-adjust: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8b400; /* Header Color */
+    padding: 20px;
+}
+
+.logo img {
+    width: 80px; /* Logo Size */
+    height: auto; /* Maintain Aspect Ratio */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px 15px; /* Increase padding for buttons */
+    font-size: 25px; /* Font Size */
+}
+
+nav ul li {
+    margin-right: 30px;
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* Text Color */
+    font-weight: bold;
+    border-radius: 20px; /* Rounded Corners */
+    padding: 10px 15px; /* Add Padding for Buttons */
+    transition: background-color 0.3s ease; /* Smooth Hover Effect */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light Hover Effect */
+}
+
+/* Cart Link */
+.cart a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* whats app */
+.whatsapp_float{
+    position:fixed;
+    bottom: 40px;
+    right:20px;
+    left:0px;
+
+}
+
+/* Main Banner */
+.banner {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.banner-img.active {
+    display: block;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Banner Heading */
+.h1 {
+    font-size: 36px; /* Heading Font Size */
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 0, 0); /* Text Color */
+    text-shadow: 2px 2px 4px rgb(214, 186, 25); /* Text Shadow for Contrast */
+}
+
+.p {
+    font-size: 20px; /* Paragraph Font Size */
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    color: white; /* Text Color */
+}
+
+/* Button styles */
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 5px; /* Rounded Corners for Buttons */
+}
+
+button.prev {
+    left: 20px;
+}
+
+button.next {
+    right: 20px;
+}
+
+/* Centering the button using Absolute Positioning */
+.shop-now {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the button */
+    padding: 15px 30px; /* Increased Padding */
+    background-color: #e69e00; /* Button Background */
+    border: none;
+    color: rgb(0, 0, 0); /* Text Color */
+    cursor: pointer;
+    font-size: 30px; /* Font Size */
+    border-radius: 15px; /* Rounded Corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth Transition */
+}
+
+.shop-now:hover {
+    background-color: #d69e00; /* Darker Hover Color */
+    transform: scale(1.05); /* Slight Grow Effect on Hover */
+}
+
+/* Products Section */
+.products {
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Section Background */
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 40px;
+    font-size: 36px; /* Increased Heading Size */
+    color: #333; /* Dark Text */
+    font-weight: bold; /* Bold Text */
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Increased Gap Between Products */
+    flex-wrap: wrap; /* Allow Wrapping */
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; /* Rounded Corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced Shadow */
+    transition: transform 0.3s; /* Scale Effect on Hover */
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* Lift Effect on Hover */
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded Corners for Images */
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 20px; /* Increased Font Size */
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #555; /* Gray Text */
+}
+
+.product-card button {
+    padding: 10px;
+    background-color: #f8b400; /* Button Background */
+    color: white; /* Text Color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded Corners */
+    transition: background-color 0.3s ease; /* Smooth Transition */
+}
+
+.product-card button:hover {
+    background-color: #d69e00; /* Darker Button Color on Hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark Background */
+    color: white; /* White Text */
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: white; /* White Links */
+    text-decoration: none; /* No Underline */
+}

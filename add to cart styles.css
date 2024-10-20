@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* whats app */
+.whatsapp_float{
+    position:fixed;
+    bottom: 40px;
+    right:20px;
+    left:0px;
+
+}
+/* Header */
+header {
+    text-size-adjust: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8b400; /* Header Color */
+    padding: 20px;
+}
+
+.logo img {
+    width: 80px; /* Logo Size */
+    height: auto; /* Maintain Aspect Ratio */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 15px 30px; /* Button Padding */
+    font-size: 25px; /* Font Size */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Text Color */
+    font-weight: bold;
+    padding: 10px 15px; /* Button-like Appearance */
+    border-radius: 5px; /* Rounded Corners */
+    transition: background-color 0.3s ease; /* Hover Effect */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light Hover Effect */
+}
+/* Cart Section */
+.cart-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Light gray background */
+    text-align: center;
+    border-radius: 10px; /* Rounded corners for the section */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.cart-item {
+    background-color: white; /* White background for each cart item */
+    padding: 20px;
+    border-radius: 8px; /* Slightly larger rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 80%;
+    transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+.cart-item:hover {
+    transform: scale(1.02); /* Scale effect on hover */
+}
+
+.total {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Darker text for contrast */
+}
+
+/* Order Section */
+.order-section {
+    padding: 50px 20px;
+    background-color: #ffffff; /* White background for contrast */
+    text-align: center;
+    border-radius: 10px; /* Rounded corners for the section */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.order-section h1 {
+    font-size: 28px; /* Larger font size for the heading */
+    color: #f8b400; /* Use brand color for the heading */
+}
+
+.order-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-section label {
+    margin: 10px 0 5px;
+    font-weight: bold; /* Bold labels for emphasis */
+}
+
+.order-section input,
+.order-section textarea {
+    width: 80%;
+    padding: 12px; /* Increased padding for better usability */
+    margin-bottom: 20px;
+    border-radius: 8px; /* Match the rounded corners */
+    border: 1px solid #ccc; /* Light border */
+    transition: border-color 0.3s; /* Transition effect */
+}
+
+.order-section input:focus,
+.order-section textarea:focus {
+    border-color: #f8b400; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.order-section button {
+    padding: 12px 25px; /* Increased padding for buttons */
+    background-color: #f8b400; /* Brand color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; /* Match the rounded corners */
+    font-size: 18px; /* Larger font size for the button */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.order-section button:hover {
+    background-color: #e69e00; /* Darker shade on hover */
+}
